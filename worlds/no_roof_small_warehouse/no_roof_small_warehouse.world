@@ -15,7 +15,7 @@
         <remapping>model_states:=model_states_demo</remapping>
         <remapping>link_states:=link_states_demo</remapping>
       </ros>
-      <update_rate>30.0</update_rate>
+      <update_rate>1000.0</update_rate>
     </plugin>
 
     
@@ -164,7 +164,7 @@
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringA_01</uri>
         </include>
-        <pose frame=''>-1.491287 5.222435 -0.017477 0 0 -1.583185</pose>
+        <pose frame=''>-1.491287 4.222435 -0.017477 0 0 -1.583185</pose>
 	</model>
 
 
@@ -221,7 +221,7 @@
         <include>
             <uri>model://aws_robomaker_warehouse_TrashCanC_01</uri>
         </include>
-        <pose frame=''>-1.592441 7.715420 0 0 0 0</pose>
+        <pose frame=''>-1.592441 7.915420 0 0 0 0</pose>
 	</model>
 
 
